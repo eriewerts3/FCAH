@@ -45,6 +45,8 @@ h1 {
     text-shadow: #CCCCCC;
 }
 
+
+/* Nav formatting */
 nav {
     display: bold;
     padding: 5px;
@@ -69,6 +71,8 @@ nav a:hover{
     color: #3262A3;
 }
 
+
+
 dt {
     color: #5280c5;
     font-size: 1.1em;
@@ -89,8 +93,19 @@ footer {
     margin-left: 180px;
 }
 
+/* Table formatting */
+table {
+    margin: 1em;
+    border: 2px solid darkblue;
+    border-collapse: collapse;
+}
+td,
+th {
+    padding: 0.5em;
+    border: 1px solid darkblue;
+}
 
-/* Class Formats */
+/* Class Formatting */
 .category {
     font-weight: bold;
     color: #5280c5;
@@ -98,7 +113,7 @@ footer {
     text-shadow: 1px 1px 1px #667;
 }
 
-/* id Formats */
+/* id Formatting */
 #wrapper {
     width: 80%;
     min-width: 700px;
@@ -193,12 +208,12 @@ footer {
         padding-left: 1em;
     }
 
-    /* Class Formats (Smartphones)*/
+    /* Class Formatting (Smartphones)*/
     .category {
         text-shadow: none;
     }
 
-    /* id formats (Smartphones) */
+    /* id formatting (Smartphones) */
     #mobile {
         display: inline;
     }
