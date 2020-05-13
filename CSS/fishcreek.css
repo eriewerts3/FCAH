@@ -3,37 +3,70 @@
     Last modified:3/30/2020
     Supporting Files: images */
 
+* {
+    box-sizing: border-box;
+}
+header,
+nav,
+main,
+footer {
+    display: block;
+}
 body {
-    background-color: #FFFFFF;
+    background-color: #5280C5;
+    background-image: url(images/gradientblue.jpg);
     color: #003366;
     font-family: Verdana, Arial, sans-serif;
 }
+
 main{
     padding: 0px 10px;
+    margin-left: 180px;
+    padding: 0px 2em;
+    background-color: #FFFFFF;
+    border: 1px solid #AEC3E3;
 }
 
 header {
     color: #f0f0f0;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, sans-serif;
-    background-image: url(images/fishcreeklogo.gif);
+    background-image: url(images/bigfish.gif);
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #003366;
+    background-color: #000066;
 }
 
 h1 {
     line-height: 250%;
     text-indent: 1em;
     margin-bottom: 0px;
+    font-size: 3em;
+    padding: 0.2em;
+    text-shadow: #CCCCCC;
 }
 
 nav {
     display: bold;
-    text-align: center;
-    background-color: #5280c5;
     padding: 5px;
+    float: left;
+    width: 180px;
 }
+
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav a:link {
+    color:#000066;
+}
+nav a:visited{
+    color: #5280C5;
+}
+nav a:hover{
+    color: #3262A3;
+}
+
 
 dt {
     color: #5280c5;
@@ -51,11 +84,10 @@ footer {
     font-style: italic;
     text-align: center;
     background-color: #AEC3E3;
+    padding: 1em;
+    margin-left: 180px;
 }
 
-footer nav {
-    background-color: #f0f0f0;
-}
 
 /* Class Formats */
 .category {
